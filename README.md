@@ -12,6 +12,9 @@ Project ini merupakan hasil implementasi dalam penggunaan Networking dengan Retr
 4. Annotasion @POST = mengirim data, @Header = menyematkan token jika dibutuhkan otorisasi, @FormUrlEncoded = mengirim data dengan @Field
 5. Fungsi enqueue = menjalankan request secara asynchronous di background
 6. Perbedaan ListAdapter dan RecylerView.Adapter :
-* ListAdapter = tidak memerlukan function getItemCount( ) karena sudah diketahui list datanya melalui type parameter 1 pada ListAdapter, yaitu function submitList( ) pada Main Activity
-* RecylerView.Adapter = semua item akan diperbarui ketika ada perubahan data
+* ListAdapter =
+  * tidak memerlukan function getItemCount( ) karena sudah diketahui list datanya melalui type parameter 1 pada ListAdapter, yaitu function submitList( ) pada Main Activity
+  * Menggunakan DiffUtil(memeriksa data masih ada/tidak) sehingga hanya item yang datanya berubah saja yang akan diperbarui
+* RecylerView.Adapter =
+  * semua item akan diperbarui ketika ada perubahan data
 
