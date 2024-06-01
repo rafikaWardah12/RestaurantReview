@@ -18,3 +18,7 @@ Project ini merupakan hasil implementasi dalam penggunaan Networking dengan Retr
 * RecylerView.Adapter =
   * Semua item akan diperbarui ketika ada perubahan data
 
+## Preview <a name="Preview"></a>
+<div style="display:flex;">
+     <img alt="Preview" title="Preview" width="" src="images/img1.png" />
+</div>
